@@ -145,7 +145,7 @@
 ## 四、仓库结构与命名约定
 
 ```
-My Python code Repository\                 ← 仓库根（GitHub: My-code-repository）
+My Python code Repository\                 ← 仓库根（GitHub: Python-code-Repository）
 ├── AGENTS.md                              ← 本文件
 ├── .gitignore
 ├── Python_Practice_Codes\                 ← 所有"练习"都在这里
@@ -182,7 +182,7 @@ My Python code Repository\                 ← 仓库根（GitHub: My-code-repos
 | Python | **3.14.7**，`D:\Python\python.exe` |
 | 已装第三方库 | `pygame-ce 2.5.8`、`requests 2.34.2`、`moviepy 1.0.3`、`DrissionPage 4.1.1.4`、`numpy 2.5.4`、`openpyxl 3.1.5`（**没有 pandas，要用得装**） |
 | 编辑器 | VSCode |
-| Git | 关联 GitHub（`My-code-repository`），`main` 分支，会自己 commit/push |
+| Git | 关联 GitHub（`Python-code-Repository`），`main` 分支，会自己 commit/push |
 | DSH | Web 版，`http://127.0.0.1:3080` |
 | `PYTHONPYCACHEPREFIX` | `C:\Users\18510\AppData\Local\Python\pycache`（缓存不落在代码旁） |
 | 已知大文件 | `G_01_Runner\audio\music.wav` **12.5 MB**（已进 git，建议转 ogg） |
