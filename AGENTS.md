@@ -61,7 +61,7 @@
 | **面向对象** | `L_60` ~ `L_80`：封装、继承、组合、`super()`、多态、私有变量、`__slots__`、`__new__`/`__del__`、运算符重载、属性访问、索引/切片/迭代协议、**`property` / `classmethod` / `staticmethod`、类装饰器** | ✅ 已完成（`L_60~80_Object-Oriented_Programming/`） |
 | **模块** | `L_81` ~ `L_83` | ✅ 已完成（`L_81~83_Modules/`） |
 | **pygame 游戏** | `G_01_Runner`：完整小游戏（OOP 重构、二段跳、不同障碍速度、打包思路） | ✅ 第一个项目完成 |
-| **100 题练习** | `Python_Training_codes\100_Python_exercises\`：**Q1~Q34、Q37~Q51 已完成（49 题）**，5 题暂搁（Q24/28/33/35/36） | ✅ 进行中（近一半） |
+| **100 题练习** | `Python_Codes\Python_Practice_codes\100_Python_exercises\`：**Q1~Q34、Q37~Q51 已完成（49 题）**，5 题暂搁（Q24/28/33/35/36） | ✅ 进行中（近一半） |
 | **爬虫** | `C_01_Crawl_Bilibili.py`：抓 B 站视频流 + 音频流（带 `deadline` 签名的临时地址），用 `moviepy` 合并成完整 mp4 | ✅ **第一个爬虫跑通** |
 | **正则** | `re` 基础：`\d` 等字符类 + `findall` | 🔄 刚入门 |
 
@@ -148,20 +148,22 @@
 My Python code Repository\                 ← 仓库根（GitHub: Python-code-Repository）
 ├── AGENTS.md                              ← 本文件
 ├── .gitignore
-├── Python_Practice_Codes\                 ← 所有"练习"都在这里
-│   ├── Python_Learning_codes\             ← 学习课 L_01 ~ L_83
-│   │   ├── L_44~56_Function\              ← 函数专题
-│   │   ├── L_60~80_Object-Oriented_Programming\   ← OOP 专题
-│   │   └── L_81~83_Modules\               ← 模块专题
-│   ├── Python_Training_codes\             ← 训练题 P_01 ~ P_08
-│   │   └── 100_Python_exercises\          ← 100 题（Que_01 ~ Que_100，做到 Q51）
+├── scores.txt / test.txt                  ← 零散试验文件
+├── Python_Codes\                          ← 所有代码（2026-11-16 由 Python_Practice_Codes 改名）
+│   ├── Python_Learning_codes\             ← 学习课 L_01 ~ L_83（84 个 .py）
+│   │   ├── L_44~56_Function\              ← 函数专题（13 个）
+│   │   ├── L_60~80_Object-Oriented_Programming\   ← OOP 专题（21 个）
+│   │   └── L_81~83_Modules\               ← 模块专题（3 个）
+│   ├── Python_Practice_codes\             ← 训练题（原 Python_Training_codes）
+│   │   ├── P_01 ~ P_08                    ← 8 道训练题（含 `_Better` 重构版）
+│   │   └── 100_Python_exercises\          ← 100 题（99 个文件，做到 Q51）
 │   ├── Python_Gaming_codes\
-│   │   ├── G_01_Runner\                   ← pygame 小游戏（资源齐全）
+│   │   ├── G_01_Runner\                   ← pygame 小游戏（14 个文件，资源齐全）
 │   │   └── G_02\                          ← 空，下一个游戏
 │   └── Python_Crawler_codes\
-│       ├── C_01_Crawl_Bilibili.py         ← B 站音视频下载 + moviepy 合并（能跑通）
+│       ├── C_01_Crawl_Bilibili.py         ← B 站音视频下载 + moviepy 合并（跑通过）
 │       └── C_02_Crawl_.py                 ← 空文件（可删）
-└── Python_Projects\                       ← 作品/项目（目前空，准备放数据分析、音乐播放器等）
+└── Python_Projects\                       ← 作品/项目（目前空，准备放数据分析、音乐播放器）
 ```
 
 **命名规则（请遵守）**
