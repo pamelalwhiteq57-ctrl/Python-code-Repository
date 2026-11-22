@@ -51,7 +51,12 @@
 # ⑩③；
 # 以sp.write_videofile("name.mp4")的形式, 导出最终视频, 结果仍需赋给一个变量
 # '''
-
+'''
+这是修改正确路径的部分
+'''
+from pathlib import Path
+bASE = Path(__file__).parent
+print(bASE)
 '''
 以下为获取音频的模板
 '''
@@ -61,6 +66,5 @@ headers = {"user-agent":"",
            "referer":""}
 res = requests.get(url, headers=headers)
 print(res.status_code)
-with open("name.mp3", "wb") as f:
+with open(bASE/" name.mp3", "wb") as f:
     f.write(res.content)
-    f.close()
